@@ -17,8 +17,8 @@
       "source_relative_path": "api/ProjectManager.App.Pages.ErrorModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectManager.App.Pages.ErrorModel.RequestId.html",
-          "hash": "kBdIpfMhV6clG3SQzwcQGAopfBQx0Slghzk7jVVBaeU="
+          "relative_path": "api/ProjectManager.App.Pages.ErrorModel.html",
+          "hash": "hEWKvtWdwuWfiDmfSLy+ClrhOXxbAp/GV85L96+sxck="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Pages.ErrorModel.OnGet.html",
-          "hash": "+PAdx7YMavfKE6YksKt41Q6r5gCrH3QM86rJK73XXwc="
+          "hash": "CA2ED5UDLbqVtZMGNdFqmGznxFU3ll6xRelBvTXr/yQ="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Pages.ErrorModel.ShowRequestId.html",
-          "hash": "6Wcdj/NVRCFHFO1sqsxQP7w4AS+2sVsxgopj+HF76eY="
+          "hash": "Y1Jq1SR9DfsB1ASRxuYgdVlvQUrt9NyMdmViJWeK7kI="
         }
       },
       "is_incremental": false,
@@ -53,8 +53,8 @@
       "source_relative_path": "api/ProjectManager.App.Pages.ErrorModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectManager.App.Pages.ErrorModel.html",
-          "hash": "sZFh7KdinkKTUAQGkm7II7rqW46pLT7XGd1Bpcp6LRA="
+          "relative_path": "api/ProjectManager.App.Pages.ErrorModel.RequestId.html",
+          "hash": "+08N4ocVTGOzL80X4Ryi9tGcbd/TrYCx3Ln3MY/0llw="
         }
       },
       "is_incremental": false,
@@ -66,19 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Pages.html",
-          "hash": "mbgtuWTVg/whWXji6aL6yArzIewIePV/8S/G7dcGxwc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Program.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Program.html",
-          "hash": "4W1ry+7hJy3zlzAmeKeMQto9i3n93Ha1/0gc1npbOjA="
+          "hash": "z31qEhJjTRMut7CHuQYdSZKVfkNRTRlVR6g3whNf9Yk="
         }
       },
       "is_incremental": false,
@@ -90,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Program.Main.html",
-          "hash": "3AbFQKwjXpFfnywyZHB94PLIB4zdGY1jpjP6+M3rdFg="
+          "hash": "knu7ocBeS8JuQ8OZyZYLIdPGvbGXfU/vMyR7chzxsIw="
         }
       },
       "is_incremental": false,
@@ -98,47 +86,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
+      "source_relative_path": "api/ProjectManager.App.Program.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.html",
-          "hash": "LhOR6y6Eyh1P0i37DZWmUc7rY7itFvYj4ZnUzLmi+Ec="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html",
-          "hash": "iH787J/b4V556MP35a58jswu4Z28hsGIZFI5SERny6Y="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html",
-          "hash": "yQoscPd7K1j75R4wtkAOXt1bKO2maMw0bkHYg7nUavI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.CreateUserAsync.html",
-          "hash": "r8iYnyF6oTz6uJObM6syamr05x8weATMRL3Upddxp08="
+          "relative_path": "api/ProjectManager.App.Program.html",
+          "hash": "cnahhQxDat8JLlJGksnSjCsB1lb0Lmz6py9BYaOalWM="
         }
       },
       "is_incremental": false,
@@ -150,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ChangeEmail.html",
-          "hash": "jZJXngn/Cz9Ru177wnBytJy3pRJGBL0RapQHmwNqk8A="
+          "hash": "t1cuy7zVOOQXT/7bPyE6rXHWz8YsNvpEZPHCQsYr67M="
         }
       },
       "is_incremental": false,
@@ -161,8 +113,8 @@
       "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.DeleteUserAsync.html",
-          "hash": "TTpXVxglOoK6M7K2UlTYDYS7LY3nvdYudWS0aID6Dzc="
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html",
+          "hash": "KuCT83X4M6lcEJXea2u3kb3BPOBcfSj3sWXj5epqXFY="
         }
       },
       "is_incremental": false,
@@ -174,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.IUserService.GetUserAsync.html",
-          "hash": "KK8BcD1SJfQ84AWiT5VEdtdgfkaNLXp64/n7XTJZU8o="
+          "hash": "bg1PclHN54jy4a+wcAIUuI16Cy0nfABGewAbJ3+TWaQ="
         }
       },
       "is_incremental": false,
@@ -186,7 +138,55 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ChangePassword.html",
-          "hash": "Pb3pBkM109cUWMpyNKGHDLurdcgzU7B06gqDp2t3a/o="
+          "hash": "wIMpQiczrzsaqSYcQq6kYFNLAYYTPuS26sGxJPF2aYk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.DeleteUserAsync.html",
+          "hash": "+5eU2d5qnBxryVsMr5K+M+DPkS27jGNfpMRc5mfakuQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html",
+          "hash": "PsoRxK67gEn7CREO2GjBieRyrxqimtleu5wTL2WGxfA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.CreateUserAsync.html",
+          "hash": "sBFt+7MyEHjvAuLtPWSkRrK7Nw5qvrg+rTwbgtMXIjw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.html",
+          "hash": "ereewLk2aYLOj9qmKrGNKbaMHMXr5n1a9lgEAtP0SUs="
         }
       },
       "is_incremental": false,
@@ -198,67 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.UserService.-ctor.html",
-          "hash": "4qd4mIMEZoksugUafzNp9fWXHGoUCPx9QibHbIQO7hM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.UserService.UpdateUserAsync.html",
-          "hash": "ZmflSkBpk7V1uUg2rnje06Owm5+vb9PFWC2bXpHja1M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.UserService.GetUserAsync.html",
-          "hash": "cE7OWP3KO7H9p0+TmlpsRkOb4RvVxeWK/4YLo42Y++w="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.UserService.CreateUserAsync.html",
-          "hash": "Lj4/QOXLJyjeHCO8lUtEiXUgRrA4zXydmA3LghBvTmY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.UserService.html",
-          "hash": "H8FzZgw6iVFJBC+LaBacdGdMYZS4kb2rFsIr6sKQ0hk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.UserService.ChangeEmail.html",
-          "hash": "YvR1pDZJBrK4KM3iSaTf7tAbqbqzwCC7Kesn5qH/FQs="
+          "hash": "0HOB8uvxrfAd0eCPXcBZiXI5VNYbFqoJaHq2T73QRkc="
         }
       },
       "is_incremental": false,
@@ -270,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.UserService.ChangePassword.html",
-          "hash": "T/YilzL9wsiLfbIN5DznYEfMlsRfH+vavk5GuVrRC54="
+          "hash": "ONnC/uw7BUFTJu3FHockxAtk/KKgY8s2Lo+VUBNdRlQ="
         }
       },
       "is_incremental": false,
@@ -281,8 +221,20 @@
       "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.UserService.ValidateUser.html",
-          "hash": "whkNdDvZ9+QrqCPiZeno7gcXr0hDv+0H4eQN/StMigk="
+          "relative_path": "api/ProjectManager.App.Services.Account.UserService.UpdateUserAsync.html",
+          "hash": "Uhx3jCHFT+EBiOrk1CJDaIXZ6m+ZuZ1nVhALsnb5Vhc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.UserService.GetUserAsync.html",
+          "hash": "LYS5HSr3MWHJgdbKB+j7JSDynx3fhRDu9lKbSqsWcL0="
         }
       },
       "is_incremental": false,
@@ -294,7 +246,55 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.UserService.DeleteUserAsync.html",
-          "hash": "b8/d5NyRrSuGO1HsVjm2sYw+Wl69Hst0aq21VicaQW4="
+          "hash": "hsmFX/nILdR6iCFxfWUoDNRrgsD98pkFbevbpHjUp0o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.UserService.CreateUserAsync.html",
+          "hash": "tmOej0V1X6SiG/LNHiYj5QFJKq59bm3QSMm6o+zVWj0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.UserService.ChangeEmail.html",
+          "hash": "3a/X19CP4SOpoxp+d5X3c1MCbloRcFc5H9SUdOh80WU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.UserService.html",
+          "hash": "TRDySNDt+zI3K3UCqqH/pNNPvT+LuM+Zl6WfdYd3pkk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.UserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.UserService.ValidateUser.html",
+          "hash": "7dSQ774sO/qwxvdWTV8LLnZuk8LGQ8q6K204+WjZAjE="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.html",
-          "hash": "KCOoZtXrmjGxgzy6pSQsNOcm5LSX/rjDTC8mBMjMPAc="
+          "hash": "LgbMp4Dj9HEx9ykJSZKRExQivFv8Cvzg7BqVSLJyr5k="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.html",
-          "hash": "KKtXKZYv1uO4RX5cvJf7o7nXdoFZS4/VXXbx//mq4mY="
+          "hash": "5/gLu1HPCSRyt2BIxesihwBL//63hA7VQFdb+K945jc="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "AsxIYAgaH7hIWqAHeuN+6nrxjY+gr2KG4dW3jVGfHLI="
+          "hash": "mP6qSFvC5RGCdQdjQUeQaOZI5kFpA4jc+7VH4RleR3M="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "g2LnKp7UouIlrauaS2drPgCn88j6LUU3S2qdkL02/RU="
+          "hash": "LnoUoVHR/A9DP4n75FWJZXCD9LiTrV8YYHQaJ9tu5sY="
         }
       },
       "is_incremental": false,
@@ -367,6 +367,17 @@
         ".html": {
           "relative_path": "articles/toc.html",
           "hash": "2+R3BVw2DruDdq1j3EyfULXlIy9FeSWVYhWuTS0Yo8c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/dashboard.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/dashboard.png"
         }
       },
       "is_incremental": false,
@@ -389,7 +400,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "wcMpXHMYG2TkVIW1yKZN0MMVO1Y68YMBbg0NNfi/wNs="
+          "hash": "iRN1VjtB/OO6Ejs1OWqOkAwzShpKRbHPkQmCl/TNdPA="
         }
       },
       "is_incremental": false,
@@ -411,25 +422,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 0
+          "skipped_file_count": 7
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
