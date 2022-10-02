@@ -52,42 +52,42 @@
   "api/ProjectManager.App.Services.Account.IUserService.ChangeEmail.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.ChangeEmail.html",
     "title": "Method ChangeEmail | ProjectManager",
-    "keywords": "Method ChangeEmail ChangeEmail(Int32, String) Declaration Task<bool> ChangeEmail(int id, string newEmail) Parameters Type Name Description System.Int32 id System.String newEmail Returns Type Description Task < System.Boolean >"
+    "keywords": "Method ChangeEmail ChangeEmail(Int32, String) Asynchronously change the email of a user. Declaration Task<bool> ChangeEmail(int id, string newEmail) Parameters Type Name Description System.Int32 id Id of the user to change the E-Mail of. System.String newEmail The new E-Mail for the user. Returns Type Description Task < System.Boolean > True if the update worked."
   },
   "api/ProjectManager.App.Services.Account.IUserService.ChangePassword.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.ChangePassword.html",
     "title": "Method ChangePassword | ProjectManager",
-    "keywords": "Method ChangePassword ChangePassword(Int32, String) Declaration Task<bool> ChangePassword(int id, string newPassword) Parameters Type Name Description System.Int32 id System.String newPassword Returns Type Description Task < System.Boolean >"
+    "keywords": "Method ChangePassword ChangePassword(Int32, String) Asynchronously changes the password of a user. Declaration Task<bool> ChangePassword(int id, string newPassword) Parameters Type Name Description System.Int32 id Id of the user to change the password of. System.String newPassword The new password for the user. Returns Type Description Task < System.Boolean > True if the update worked."
   },
   "api/ProjectManager.App.Services.Account.IUserService.CreateUserAsync.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.CreateUserAsync.html",
     "title": "Method CreateUserAsync | ProjectManager",
-    "keywords": "Method CreateUserAsync CreateUserAsync(String, String, String) Declaration Task<User> CreateUserAsync(string username, string password, string email) Parameters Type Name Description System.String username System.String password System.String email Returns Type Description Task < ProjectManager.Database.Models.User >"
+    "keywords": "Method CreateUserAsync CreateUserAsync(String, String, String) Asynchronously creates a user. Declaration Task<User> CreateUserAsync(string username, string email, string password) Parameters Type Name Description System.String username Username of the user to create System.String email E-Mail of the user to create System.String password Password of the user to create Returns Type Description Task < ProjectManager.Database.Models.User > The created ProjectManager.Database.Models.User or null if the creation failed."
   },
   "api/ProjectManager.App.Services.Account.IUserService.DeleteUserAsync.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.DeleteUserAsync.html",
     "title": "Method DeleteUserAsync | ProjectManager",
-    "keywords": "Method DeleteUserAsync DeleteUserAsync(Int32) Declaration Task<bool> DeleteUserAsync(int id) Parameters Type Name Description System.Int32 id Returns Type Description Task < System.Boolean >"
+    "keywords": "Method DeleteUserAsync DeleteUserAsync(Int32) Asynchronously deletes a user. Declaration Task<bool> DeleteUserAsync(int id) Parameters Type Name Description System.Int32 id Id of the user to delete Returns Type Description Task < System.Boolean > True if the deletion worked."
   },
   "api/ProjectManager.App.Services.Account.IUserService.GetUserAsync.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.GetUserAsync.html",
     "title": "Method GetUserAsync | ProjectManager",
-    "keywords": "Method GetUserAsync GetUserAsync(String) Declaration Task<User> GetUserAsync(string username) Parameters Type Name Description System.String username Returns Type Description Task < ProjectManager.Database.Models.User >"
+    "keywords": "Method GetUserAsync GetUserAsync(String) Asynchronously gets a user by their username. Declaration Task<User> GetUserAsync(string username) Parameters Type Name Description System.String username The username of the User to find Returns Type Description Task < ProjectManager.Database.Models.User > A ProjectManager.Database.Models.User"
   },
   "api/ProjectManager.App.Services.Account.IUserService.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.html",
     "title": "Interface IUserService | ProjectManager",
-    "keywords": "Interface IUserService Namespace : ProjectManager.App.Services.Account Assembly : ProjectManager.App.dll Syntax public interface IUserService Methods Name Description ChangeEmail(Int32, String) ChangePassword(Int32, String) CreateUserAsync(String, String, String) DeleteUserAsync(Int32) GetUserAsync(String) UpdateUserAsync(Int32, User) ValidateUser(String, User)"
+    "keywords": "Interface IUserService Namespace : ProjectManager.App.Services.Account Assembly : ProjectManager.App.dll Syntax public interface IUserService Methods Name Description ChangeEmail(Int32, String) Asynchronously change the email of a user. ChangePassword(Int32, String) Asynchronously changes the password of a user. CreateUserAsync(String, String, String) Asynchronously creates a user. DeleteUserAsync(Int32) Asynchronously deletes a user. GetUserAsync(String) Asynchronously gets a user by their username. UpdateUserAsync(Int32, User) Asynchronously updates a user. ValidateUser(String, User) Asynchronously authenticates the user."
   },
   "api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html",
     "title": "Method UpdateUserAsync | ProjectManager",
-    "keywords": "Method UpdateUserAsync UpdateUserAsync(Int32, User) Declaration Task<bool> UpdateUserAsync(int id, User user) Parameters Type Name Description System.Int32 id ProjectManager.Database.Models.User user Returns Type Description Task < System.Boolean >"
+    "keywords": "Method UpdateUserAsync UpdateUserAsync(Int32, User) Asynchronously updates a user. Declaration Task<bool> UpdateUserAsync(int id, User user) Parameters Type Name Description System.Int32 id Id of the user to update. ProjectManager.Database.Models.User user User object containing the new values for the User. Returns Type Description Task < System.Boolean > True if the update worked."
   },
   "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html",
     "title": "Method ValidateUser | ProjectManager",
-    "keywords": "Method ValidateUser ValidateUser(String, User) Declaration Task<bool> ValidateUser(string password, User user) Parameters Type Name Description System.String password ProjectManager.Database.Models.User user Returns Type Description Task < System.Boolean >"
+    "keywords": "Method ValidateUser ValidateUser(String, User) Asynchronously authenticates the user. Declaration Task<bool> ValidateUser(string password, User user) Parameters Type Name Description System.String password The password to authenticate the User against. ProjectManager.Database.Models.User user The User object to authenticate Returns Type Description Task < System.Boolean > True if the user entered valid credentials."
   },
   "api/ProjectManager.App.Services.Account.UserService.ChangeEmail.html": {
     "href": "api/ProjectManager.App.Services.Account.UserService.ChangeEmail.html",
@@ -102,7 +102,7 @@
   "api/ProjectManager.App.Services.Account.UserService.CreateUserAsync.html": {
     "href": "api/ProjectManager.App.Services.Account.UserService.CreateUserAsync.html",
     "title": "Method CreateUserAsync | ProjectManager",
-    "keywords": "Method CreateUserAsync CreateUserAsync(String, String, String) Declaration public async Task<User> CreateUserAsync(string username, string password, string email) Parameters Type Name Description System.String username System.String password System.String email Returns Type Description Task < ProjectManager.Database.Models.User > Implements IUserService.CreateUserAsync(String, String, String)"
+    "keywords": "Method CreateUserAsync CreateUserAsync(String, String, String) Declaration public async Task<User> CreateUserAsync(string username, string email, string password) Parameters Type Name Description System.String username System.String email System.String password Returns Type Description Task < ProjectManager.Database.Models.User > Implements IUserService.CreateUserAsync(String, String, String)"
   },
   "api/ProjectManager.App.Services.Account.UserService.-ctor.html": {
     "href": "api/ProjectManager.App.Services.Account.UserService.-ctor.html",
