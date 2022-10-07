@@ -99,12 +99,12 @@
 <div class="markdown level0 conceptual"></div>
 
 <a id="ProjectManager_App_Services_Account_UserService__ctor_" data-uid="ProjectManager.App.Services.Account.UserService.#ctor*"></a>
-<h4 id="ProjectManager_App_Services_Account_UserService__ctor_ProjectManager_Database_Context_ProjectManagerDb_" data-uid="ProjectManager.App.Services.Account.UserService.#ctor(ProjectManager.Database.Context.ProjectManagerDb)">UserService(ProjectManagerDb)</h4>
+<h4 id="ProjectManager_App_Services_Account_UserService__ctor_ProjectManager_Database_Context_ProjectManagerDb_ProjectManager_App_Helpers_IPasswordHasher_" data-uid="ProjectManager.App.Services.Account.UserService.#ctor(ProjectManager.Database.Context.ProjectManagerDb,ProjectManager.App.Helpers.IPasswordHasher)">UserService(ProjectManagerDb, IPasswordHasher)</h4>
 <div class="markdown level1 summary"></div>
 <div class="markdown level1 conceptual"></div>
 <h5 class="decalaration">Declaration</h5>
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public UserService(ProjectManagerDb context)</code></pre>
+  <pre><code class="lang-csharp hljs">public UserService(ProjectManagerDb context, IPasswordHasher passwordHasher)</code></pre>
 </div>
 <h5 class="parameters">Parameters</h5>
 <table class="table table-bordered table-striped table-condensed">
@@ -119,6 +119,11 @@
     <tr>
       <td><span class="xref">ProjectManager.Database.Context.ProjectManagerDb</span></td>
       <td><span class="parametername">context</span></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a class="xref" href="ProjectManager.App.Helpers.IPasswordHasher.html">IPasswordHasher</a></td>
+      <td><span class="parametername">passwordHasher</span></td>
       <td></td>
     </tr>
   </tbody>

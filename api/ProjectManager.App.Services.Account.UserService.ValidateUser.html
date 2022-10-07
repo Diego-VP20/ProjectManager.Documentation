@@ -100,7 +100,8 @@
 
 <a id="ProjectManager_App_Services_Account_UserService_ValidateUser_" data-uid="ProjectManager.App.Services.Account.UserService.ValidateUser*"></a>
 <h4 id="ProjectManager_App_Services_Account_UserService_ValidateUser_System_String_ProjectManager_Database_Models_User_" data-uid="ProjectManager.App.Services.Account.UserService.ValidateUser(System.String,ProjectManager.Database.Models.User)">ValidateUser(String, User)</h4>
-<div class="markdown level1 summary"></div>
+<div class="markdown level1 summary"><p>Asynchronously authenticates the user.</p>
+</div>
 <div class="markdown level1 conceptual"></div>
 <h5 class="decalaration">Declaration</h5>
 <div class="codewrapper">
@@ -119,12 +120,14 @@
     <tr>
       <td><span class="xref">System.String</span></td>
       <td><span class="parametername">password</span></td>
-      <td></td>
+      <td><p>The password to authenticate the User against.</p>
+</td>
     </tr>
     <tr>
       <td><span class="xref">ProjectManager.Database.Models.User</span></td>
       <td><span class="parametername">user</span></td>
-      <td></td>
+      <td><p>The User object to authenticate</p>
+</td>
     </tr>
   </tbody>
 </table>
@@ -139,7 +142,8 @@
   <tbody>
     <tr>
       <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-      <td></td>
+      <td><p>True if the user entered valid credentials.</p>
+</td>
     </tr>
   </tbody>
 </table>

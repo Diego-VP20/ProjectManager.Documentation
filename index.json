@@ -4,50 +4,45 @@
     "title": "Welcome | ProjectManager",
     "keywords": "Welcome This webpage will be used as the official documentation of the Project Manager Application"
   },
-  "api/ProjectManager.App.html": {
-    "href": "api/ProjectManager.App.html",
-    "title": "Namespace ProjectManager.App | ProjectManager",
-    "keywords": "Namespace ProjectManager.App Classes Program"
+  "api/ProjectManager.App.Handlers.html": {
+    "href": "api/ProjectManager.App.Handlers.html",
+    "title": "Namespace ProjectManager.App.Handlers | ProjectManager",
+    "keywords": "Namespace ProjectManager.App.Handlers Interfaces IQueryLoggingHandler"
   },
-  "api/ProjectManager.App.Pages.ErrorModel.html": {
-    "href": "api/ProjectManager.App.Pages.ErrorModel.html",
-    "title": "Class ErrorModel | ProjectManager",
-    "keywords": "Class ErrorModel Inheritance System.Object Microsoft.AspNetCore.Mvc.RazorPages.PageModel ErrorModel Implements Microsoft.AspNetCore.Mvc.Filters.IAsyncPageFilter Microsoft.AspNetCore.Mvc.Filters.IPageFilter Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata Inherited Members Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync<TModel>(TModel) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync<TModel>(TModel, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync<TModel>(TModel, System.String, Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync<TModel>(TModel, System.String, System.Linq.Expressions.Expression<System.Func<TModel, System.Object>>[]) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync<TModel>(TModel, System.String, System.Func<Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata, System.Boolean>) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync<TModel>(TModel, System.String, Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider, System.Linq.Expressions.Expression<System.Func<TModel, System.Object>>[]) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync<TModel>(TModel, System.String, Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider, System.Func<Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata, System.Boolean>) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync(System.Object, System.Type, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryUpdateModelAsync(System.Object, System.Type, System.String, Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider, System.Func<Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata, System.Boolean>) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.BadRequest() Microsoft.AspNetCore.Mvc.RazorPages.PageModel.BadRequest(System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Challenge() Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Challenge(System.String[]) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Challenge(Microsoft.AspNetCore.Authentication.AuthenticationProperties) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Challenge(Microsoft.AspNetCore.Authentication.AuthenticationProperties, System.String[]) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Content(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Content(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Content(System.String, System.String, System.Text.Encoding) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Content(System.String, Microsoft.Net.Http.Headers.MediaTypeHeaderValue) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Forbid() Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Forbid(System.String[]) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties, System.String[]) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.Byte[], System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.Byte[], System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.IO.Stream, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.IO.Stream, System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.File(System.String, System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.LocalRedirect(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.LocalRedirectPermanent(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.LocalRedirectPreserveMethod(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.LocalRedirectPermanentPreserveMethod(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.NotFound() Microsoft.AspNetCore.Mvc.RazorPages.PageModel.NotFound(System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Page() Microsoft.AspNetCore.Mvc.RazorPages.PageModel.PhysicalFile(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.PhysicalFile(System.String, System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Redirect(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectPermanent(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectPreserveMethod(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectPermanentPreserveMethod(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToAction(System.String, System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPreserveMethod(System.String, System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanent(System.String, System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToActionPermanentPreserveMethod(System.String, System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoute(System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePreserveMethod(System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanent(System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToRoutePermanentPreserveMethod(System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage() Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPage(System.String, System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.String, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanent(System.String, System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePreserveMethod(System.String, System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RedirectToPagePermanentPreserveMethod(System.String, System.String, System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignIn(System.Security.Claims.ClaimsPrincipal, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignIn(System.Security.Claims.ClaimsPrincipal, Microsoft.AspNetCore.Authentication.AuthenticationProperties, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignOut(System.String[]) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.SignOut(Microsoft.AspNetCore.Authentication.AuthenticationProperties, System.String[]) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.StatusCode(System.Int32) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.StatusCode(System.Int32, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Unauthorized() Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Partial(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Partial(System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.Type) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.String, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewComponent(System.Type, System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryValidateModel(System.Object) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TryValidateModel(System.Object, System.String) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerSelected(Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecuting(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecuted(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutedContext) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerSelectionAsync(Microsoft.AspNetCore.Mvc.Filters.PageHandlerSelectedContext) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.OnPageHandlerExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutingContext, Microsoft.AspNetCore.Mvc.Filters.PageHandlerExecutionDelegate) Microsoft.AspNetCore.Mvc.RazorPages.PageModel.PageContext Microsoft.AspNetCore.Mvc.RazorPages.PageModel.HttpContext Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Request Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Response Microsoft.AspNetCore.Mvc.RazorPages.PageModel.RouteData Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ModelState Microsoft.AspNetCore.Mvc.RazorPages.PageModel.User Microsoft.AspNetCore.Mvc.RazorPages.PageModel.TempData Microsoft.AspNetCore.Mvc.RazorPages.PageModel.Url Microsoft.AspNetCore.Mvc.RazorPages.PageModel.MetadataProvider Microsoft.AspNetCore.Mvc.RazorPages.PageModel.ViewData System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : ProjectManager.App.Pages Assembly : ProjectManager.App.dll Syntax [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)] [IgnoreAntiforgeryToken] public class ErrorModel : PageModel, IAsyncPageFilter, IPageFilter, IFilterMetadata Properties Name Description RequestId ShowRequestId Methods Name Description OnGet()"
+  "api/ProjectManager.App.Handlers.IQueryLoggingHandler.html": {
+    "href": "api/ProjectManager.App.Handlers.IQueryLoggingHandler.html",
+    "title": "Interface IQueryLoggingHandler | ProjectManager",
+    "keywords": "Interface IQueryLoggingHandler Namespace : ProjectManager.App.Handlers Assembly : ProjectManager.App.dll Syntax public interface IQueryLoggingHandler Methods Name Description RunAndLogQuery<T>(Func<Task<T>>) Runs a query and logs the time it took to execute if it succeeded. Otherwise it logs the exception."
   },
-  "api/ProjectManager.App.Pages.ErrorModel.OnGet.html": {
-    "href": "api/ProjectManager.App.Pages.ErrorModel.OnGet.html",
-    "title": "Method OnGet | ProjectManager",
-    "keywords": "Method OnGet OnGet() Declaration public void OnGet()"
+  "api/ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery.html": {
+    "href": "api/ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery.html",
+    "title": "Method RunAndLogQuery | ProjectManager",
+    "keywords": "Method RunAndLogQuery RunAndLogQuery<T>(Func<Task<T>>) Runs a query and logs the time it took to execute if it succeeded. Otherwise it logs the exception. Declaration Task<T> RunAndLogQuery<T>(Func<Task<T>> query) Parameters Type Name Description Func < Task <T>> query Function to run and log. Returns Type Description Task <T> Returns T on success or its default value on failure. Type Parameters Name Description T The return type of query."
   },
-  "api/ProjectManager.App.Pages.ErrorModel.RequestId.html": {
-    "href": "api/ProjectManager.App.Pages.ErrorModel.RequestId.html",
-    "title": "Property RequestId | ProjectManager",
-    "keywords": "Property RequestId RequestId Declaration public string RequestId { get; set; } Property Value Type Description System.String"
+  "api/ProjectManager.App.Helpers.html": {
+    "href": "api/ProjectManager.App.Helpers.html",
+    "title": "Namespace ProjectManager.App.Helpers | ProjectManager",
+    "keywords": "Namespace ProjectManager.App.Helpers Interfaces IPasswordHasher"
   },
-  "api/ProjectManager.App.Pages.ErrorModel.ShowRequestId.html": {
-    "href": "api/ProjectManager.App.Pages.ErrorModel.ShowRequestId.html",
-    "title": "Property ShowRequestId | ProjectManager",
-    "keywords": "Property ShowRequestId ShowRequestId Declaration public bool ShowRequestId { get; } Property Value Type Description System.Boolean"
+  "api/ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync.html": {
+    "href": "api/ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync.html",
+    "title": "Method HashPasswordAsync | ProjectManager",
+    "keywords": "Method HashPasswordAsync HashPasswordAsync(String) Asynchronously hashes a password. Declaration Task<string> HashPasswordAsync(string password) Parameters Type Name Description System.String password The password string to hash. Returns Type Description Task < System.String > The hashed password."
   },
-  "api/ProjectManager.App.Pages.html": {
-    "href": "api/ProjectManager.App.Pages.html",
-    "title": "Namespace ProjectManager.App.Pages | ProjectManager",
-    "keywords": "Namespace ProjectManager.App.Pages Classes ErrorModel"
+  "api/ProjectManager.App.Helpers.IPasswordHasher.html": {
+    "href": "api/ProjectManager.App.Helpers.IPasswordHasher.html",
+    "title": "Interface IPasswordHasher | ProjectManager",
+    "keywords": "Interface IPasswordHasher Namespace : ProjectManager.App.Helpers Assembly : ProjectManager.App.dll Syntax public interface IPasswordHasher Methods Name Description HashPasswordAsync(String) Asynchronously hashes a password. VerifyPasswordAsync(String, String) Asynchronously verifies a password against a hash."
   },
-  "api/ProjectManager.App.Program.html": {
-    "href": "api/ProjectManager.App.Program.html",
-    "title": "Class Program | ProjectManager",
-    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : ProjectManager.App Assembly : ProjectManager.App.dll Syntax public static class Program Methods Name Description Main()"
-  },
-  "api/ProjectManager.App.Program.Main.html": {
-    "href": "api/ProjectManager.App.Program.Main.html",
-    "title": "Method Main | ProjectManager",
-    "keywords": "Method Main Main() Declaration public static async Task Main() Returns Type Description Task"
+  "api/ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync.html": {
+    "href": "api/ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync.html",
+    "title": "Method VerifyPasswordAsync | ProjectManager",
+    "keywords": "Method VerifyPasswordAsync VerifyPasswordAsync(String, String) Asynchronously verifies a password against a hash. Declaration Task<bool> VerifyPasswordAsync(string password, string hashedPassword) Parameters Type Name Description System.String password System.String hashedPassword Returns Type Description Task < System.Boolean > True if the password matched."
   },
   "api/ProjectManager.App.Services.Account.html": {
     "href": "api/ProjectManager.App.Services.Account.html",
     "title": "Namespace ProjectManager.App.Services.Account | ProjectManager",
-    "keywords": "Namespace ProjectManager.App.Services.Account Classes UserService Interfaces IUserService"
+    "keywords": "Namespace ProjectManager.App.Services.Account Interfaces IUserService"
   },
   "api/ProjectManager.App.Services.Account.IUserService.ChangeEmail.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.ChangeEmail.html",
@@ -77,62 +72,17 @@
   "api/ProjectManager.App.Services.Account.IUserService.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.html",
     "title": "Interface IUserService | ProjectManager",
-    "keywords": "Interface IUserService Namespace : ProjectManager.App.Services.Account Assembly : ProjectManager.App.dll Syntax public interface IUserService Methods Name Description ChangeEmail(Int32, String) Asynchronously change the email of a user. ChangePassword(Int32, String) Asynchronously changes the password of a user. CreateUserAsync(String, String, String) Asynchronously creates a user. DeleteUserAsync(Int32) Asynchronously deletes a user. GetUserAsync(String) Asynchronously gets a user by their username. UpdateUserAsync(Int32, User) Asynchronously updates a user. ValidateUser(String, User) Asynchronously authenticates the user."
+    "keywords": "Interface IUserService Namespace : ProjectManager.App.Services.Account Assembly : ProjectManager.App.dll Syntax public interface IUserService Methods Name Description ChangeEmail(Int32, String) Asynchronously change the email of a user. ChangePassword(Int32, String) Asynchronously changes the password of a user. CreateUserAsync(String, String, String) Asynchronously creates a user. DeleteUserAsync(Int32) Asynchronously deletes a user. GetUserAsync(String) Asynchronously gets a user by their username. UpdateUserAsync(User, User) Asynchronously updates a user. ValidateUser(String, User) Asynchronously authenticates the user."
   },
   "api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html",
     "title": "Method UpdateUserAsync | ProjectManager",
-    "keywords": "Method UpdateUserAsync UpdateUserAsync(Int32, User) Asynchronously updates a user. Declaration Task<bool> UpdateUserAsync(int id, User user) Parameters Type Name Description System.Int32 id Id of the user to update. ProjectManager.Database.Models.User user User object containing the new values for the User. Returns Type Description Task < System.Boolean > True if the update worked."
+    "keywords": "Method UpdateUserAsync UpdateUserAsync(User, User) Asynchronously updates a user. Declaration Task<bool> UpdateUserAsync(User oldUser, User newUser) Parameters Type Name Description ProjectManager.Database.Models.User oldUser User object of the user to update. ProjectManager.Database.Models.User newUser User object containing the new values for the User. Returns Type Description Task < System.Boolean > True if the update worked."
   },
   "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html": {
     "href": "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html",
     "title": "Method ValidateUser | ProjectManager",
     "keywords": "Method ValidateUser ValidateUser(String, User) Asynchronously authenticates the user. Declaration Task<bool> ValidateUser(string password, User user) Parameters Type Name Description System.String password The password to authenticate the User against. ProjectManager.Database.Models.User user The User object to authenticate Returns Type Description Task < System.Boolean > True if the user entered valid credentials."
-  },
-  "api/ProjectManager.App.Services.Account.UserService.ChangeEmail.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.ChangeEmail.html",
-    "title": "Method ChangeEmail | ProjectManager",
-    "keywords": "Method ChangeEmail ChangeEmail(Int32, String) Declaration public async Task<bool> ChangeEmail(int id, string newEmail) Parameters Type Name Description System.Int32 id System.String newEmail Returns Type Description Task < System.Boolean > Implements IUserService.ChangeEmail(Int32, String)"
-  },
-  "api/ProjectManager.App.Services.Account.UserService.ChangePassword.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.ChangePassword.html",
-    "title": "Method ChangePassword | ProjectManager",
-    "keywords": "Method ChangePassword ChangePassword(Int32, String) Declaration public async Task<bool> ChangePassword(int id, string newPassword) Parameters Type Name Description System.Int32 id System.String newPassword Returns Type Description Task < System.Boolean > Implements IUserService.ChangePassword(Int32, String)"
-  },
-  "api/ProjectManager.App.Services.Account.UserService.CreateUserAsync.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.CreateUserAsync.html",
-    "title": "Method CreateUserAsync | ProjectManager",
-    "keywords": "Method CreateUserAsync CreateUserAsync(String, String, String) Declaration public async Task<User> CreateUserAsync(string username, string email, string password) Parameters Type Name Description System.String username System.String email System.String password Returns Type Description Task < ProjectManager.Database.Models.User > Implements IUserService.CreateUserAsync(String, String, String)"
-  },
-  "api/ProjectManager.App.Services.Account.UserService.-ctor.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.-ctor.html",
-    "title": "Constructor UserService | ProjectManager",
-    "keywords": "Constructor UserService UserService(ProjectManagerDb) Declaration public UserService(ProjectManagerDb context) Parameters Type Name Description ProjectManager.Database.Context.ProjectManagerDb context"
-  },
-  "api/ProjectManager.App.Services.Account.UserService.DeleteUserAsync.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.DeleteUserAsync.html",
-    "title": "Method DeleteUserAsync | ProjectManager",
-    "keywords": "Method DeleteUserAsync DeleteUserAsync(Int32) Declaration public async Task<bool> DeleteUserAsync(int id) Parameters Type Name Description System.Int32 id Returns Type Description Task < System.Boolean > Implements IUserService.DeleteUserAsync(Int32)"
-  },
-  "api/ProjectManager.App.Services.Account.UserService.GetUserAsync.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.GetUserAsync.html",
-    "title": "Method GetUserAsync | ProjectManager",
-    "keywords": "Method GetUserAsync GetUserAsync(String) Declaration public async Task<User> GetUserAsync(string username) Parameters Type Name Description System.String username Returns Type Description Task < ProjectManager.Database.Models.User > Implements IUserService.GetUserAsync(String)"
-  },
-  "api/ProjectManager.App.Services.Account.UserService.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.html",
-    "title": "Class UserService | ProjectManager",
-    "keywords": "Class UserService Inheritance System.Object UserService Implements IUserService Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : ProjectManager.App.Services.Account Assembly : ProjectManager.App.dll Syntax public class UserService : IUserService Constructors Name Description UserService(ProjectManagerDb) Methods Name Description ChangeEmail(Int32, String) ChangePassword(Int32, String) CreateUserAsync(String, String, String) DeleteUserAsync(Int32) GetUserAsync(String) UpdateUserAsync(Int32, User) ValidateUser(String, User)"
-  },
-  "api/ProjectManager.App.Services.Account.UserService.UpdateUserAsync.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.UpdateUserAsync.html",
-    "title": "Method UpdateUserAsync | ProjectManager",
-    "keywords": "Method UpdateUserAsync UpdateUserAsync(Int32, User) Declaration public async Task<bool> UpdateUserAsync(int id, User user) Parameters Type Name Description System.Int32 id ProjectManager.Database.Models.User user Returns Type Description Task < System.Boolean > Implements IUserService.UpdateUserAsync(Int32, User)"
-  },
-  "api/ProjectManager.App.Services.Account.UserService.ValidateUser.html": {
-    "href": "api/ProjectManager.App.Services.Account.UserService.ValidateUser.html",
-    "title": "Method ValidateUser | ProjectManager",
-    "keywords": "Method ValidateUser ValidateUser(String, User) Declaration public async Task<bool> ValidateUser(string password, User user) Parameters Type Name Description System.String password ProjectManager.Database.Models.User user Returns Type Description Task < System.Boolean > Implements IUserService.ValidateUser(String, User)"
   },
   "articles/intro.html": {
     "href": "articles/intro.html",

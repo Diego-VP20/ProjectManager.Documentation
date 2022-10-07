@@ -99,12 +99,13 @@
 <div class="markdown level0 conceptual"></div>
 
 <a id="ProjectManager_App_Services_Account_UserService_UpdateUserAsync_" data-uid="ProjectManager.App.Services.Account.UserService.UpdateUserAsync*"></a>
-<h4 id="ProjectManager_App_Services_Account_UserService_UpdateUserAsync_System_Int32_ProjectManager_Database_Models_User_" data-uid="ProjectManager.App.Services.Account.UserService.UpdateUserAsync(System.Int32,ProjectManager.Database.Models.User)">UpdateUserAsync(Int32, User)</h4>
-<div class="markdown level1 summary"></div>
+<h4 id="ProjectManager_App_Services_Account_UserService_UpdateUserAsync_ProjectManager_Database_Models_User_ProjectManager_Database_Models_User_" data-uid="ProjectManager.App.Services.Account.UserService.UpdateUserAsync(ProjectManager.Database.Models.User,ProjectManager.Database.Models.User)">UpdateUserAsync(User, User)</h4>
+<div class="markdown level1 summary"><p>Asynchronously updates a user.</p>
+</div>
 <div class="markdown level1 conceptual"></div>
 <h5 class="decalaration">Declaration</h5>
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public async Task&lt;bool&gt; UpdateUserAsync(int id, User user)</code></pre>
+  <pre><code class="lang-csharp hljs">public async Task&lt;bool&gt; UpdateUserAsync(User oldUser, User newUser)</code></pre>
 </div>
 <h5 class="parameters">Parameters</h5>
 <table class="table table-bordered table-striped table-condensed">
@@ -117,14 +118,16 @@
   </thead>
   <tbody>
     <tr>
-      <td><span class="xref">System.Int32</span></td>
-      <td><span class="parametername">id</span></td>
-      <td></td>
+      <td><span class="xref">ProjectManager.Database.Models.User</span></td>
+      <td><span class="parametername">oldUser</span></td>
+      <td><p>User object of the user to update.</p>
+</td>
     </tr>
     <tr>
       <td><span class="xref">ProjectManager.Database.Models.User</span></td>
-      <td><span class="parametername">user</span></td>
-      <td></td>
+      <td><span class="parametername">newUser</span></td>
+      <td><p>User object containing the new values for the User.</p>
+</td>
     </tr>
   </tbody>
 </table>
@@ -139,12 +142,13 @@
   <tbody>
     <tr>
       <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-      <td></td>
+      <td><p>True if the update worked.</p>
+</td>
     </tr>
   </tbody>
 </table>
 <h5 class="implements">Implements</h5>
-    <div><a class="xref" href="ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html#ProjectManager_App_Services_Account_IUserService_UpdateUserAsync_System_Int32_ProjectManager_Database_Models_User_">IUserService.UpdateUserAsync(Int32, User)</a></div>
+    <div><a class="xref" href="ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html#ProjectManager_App_Services_Account_IUserService_UpdateUserAsync_ProjectManager_Database_Models_User_ProjectManager_Database_Models_User_">IUserService.UpdateUserAsync(User, User)</a></div>
 </article>
                 </div>
 

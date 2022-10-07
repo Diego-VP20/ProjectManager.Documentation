@@ -1,78 +1,69 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: ProjectManager.App
-  name: ProjectManager.App
-  href: api/ProjectManager.App.html
-  commentId: N:ProjectManager.App
-  fullName: ProjectManager.App
-  nameWithType: ProjectManager.App
-- uid: ProjectManager.App.Pages
-  name: ProjectManager.App.Pages
-  href: api/ProjectManager.App.Pages.html
-  commentId: N:ProjectManager.App.Pages
-  fullName: ProjectManager.App.Pages
-  nameWithType: ProjectManager.App.Pages
-- uid: ProjectManager.App.Pages.ErrorModel
-  name: ErrorModel
-  href: api/ProjectManager.App.Pages.ErrorModel.html
-  commentId: T:ProjectManager.App.Pages.ErrorModel
-  fullName: ProjectManager.App.Pages.ErrorModel
-  nameWithType: ErrorModel
-- uid: ProjectManager.App.Pages.ErrorModel.OnGet
-  name: OnGet()
-  href: api/ProjectManager.App.Pages.ErrorModel.OnGet.html#ProjectManager_App_Pages_ErrorModel_OnGet
-  commentId: M:ProjectManager.App.Pages.ErrorModel.OnGet
-  fullName: ProjectManager.App.Pages.ErrorModel.OnGet()
-  nameWithType: ErrorModel.OnGet()
-- uid: ProjectManager.App.Pages.ErrorModel.OnGet*
-  name: OnGet
-  href: api/ProjectManager.App.Pages.ErrorModel.OnGet.html
-  commentId: Overload:ProjectManager.App.Pages.ErrorModel.OnGet
-  fullName: ProjectManager.App.Pages.ErrorModel.OnGet
-  nameWithType: ErrorModel.OnGet
-- uid: ProjectManager.App.Pages.ErrorModel.RequestId
-  name: RequestId
-  href: api/ProjectManager.App.Pages.ErrorModel.RequestId.html#ProjectManager_App_Pages_ErrorModel_RequestId
-  commentId: P:ProjectManager.App.Pages.ErrorModel.RequestId
-  fullName: ProjectManager.App.Pages.ErrorModel.RequestId
-  nameWithType: ErrorModel.RequestId
-- uid: ProjectManager.App.Pages.ErrorModel.RequestId*
-  name: RequestId
-  href: api/ProjectManager.App.Pages.ErrorModel.RequestId.html
-  commentId: Overload:ProjectManager.App.Pages.ErrorModel.RequestId
-  fullName: ProjectManager.App.Pages.ErrorModel.RequestId
-  nameWithType: ErrorModel.RequestId
-- uid: ProjectManager.App.Pages.ErrorModel.ShowRequestId
-  name: ShowRequestId
-  href: api/ProjectManager.App.Pages.ErrorModel.ShowRequestId.html#ProjectManager_App_Pages_ErrorModel_ShowRequestId
-  commentId: P:ProjectManager.App.Pages.ErrorModel.ShowRequestId
-  fullName: ProjectManager.App.Pages.ErrorModel.ShowRequestId
-  nameWithType: ErrorModel.ShowRequestId
-- uid: ProjectManager.App.Pages.ErrorModel.ShowRequestId*
-  name: ShowRequestId
-  href: api/ProjectManager.App.Pages.ErrorModel.ShowRequestId.html
-  commentId: Overload:ProjectManager.App.Pages.ErrorModel.ShowRequestId
-  fullName: ProjectManager.App.Pages.ErrorModel.ShowRequestId
-  nameWithType: ErrorModel.ShowRequestId
-- uid: ProjectManager.App.Program
-  name: Program
-  href: api/ProjectManager.App.Program.html
-  commentId: T:ProjectManager.App.Program
-  fullName: ProjectManager.App.Program
-  nameWithType: Program
-- uid: ProjectManager.App.Program.Main
-  name: Main()
-  href: api/ProjectManager.App.Program.Main.html#ProjectManager_App_Program_Main
-  commentId: M:ProjectManager.App.Program.Main
-  fullName: ProjectManager.App.Program.Main()
-  nameWithType: Program.Main()
-- uid: ProjectManager.App.Program.Main*
-  name: Main
-  href: api/ProjectManager.App.Program.Main.html
-  commentId: Overload:ProjectManager.App.Program.Main
-  fullName: ProjectManager.App.Program.Main
-  nameWithType: Program.Main
+- uid: ProjectManager.App.Handlers
+  name: ProjectManager.App.Handlers
+  href: api/ProjectManager.App.Handlers.html
+  commentId: N:ProjectManager.App.Handlers
+  fullName: ProjectManager.App.Handlers
+  nameWithType: ProjectManager.App.Handlers
+- uid: ProjectManager.App.Handlers.IQueryLoggingHandler
+  name: IQueryLoggingHandler
+  href: api/ProjectManager.App.Handlers.IQueryLoggingHandler.html
+  commentId: T:ProjectManager.App.Handlers.IQueryLoggingHandler
+  fullName: ProjectManager.App.Handlers.IQueryLoggingHandler
+  nameWithType: IQueryLoggingHandler
+- uid: ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery*
+  name: RunAndLogQuery
+  href: api/ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery.html
+  commentId: Overload:ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery
+  fullName: ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery
+  nameWithType: IQueryLoggingHandler.RunAndLogQuery
+- uid: ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery``1(Func{Task{``0}})
+  name: RunAndLogQuery<T>(Func<Task<T>>)
+  href: api/ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery.html#ProjectManager_App_Handlers_IQueryLoggingHandler_RunAndLogQuery__1_Func_Task___0___
+  commentId: M:ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery``1(Func{Task{``0}})
+  name.vb: RunAndLogQuery(Of T)(Func(Of Task(Of T)))
+  fullName: ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery<T>(Func<Task<T>>)
+  fullName.vb: ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery(Of T)(Func(Of Task(Of T)))
+  nameWithType: IQueryLoggingHandler.RunAndLogQuery<T>(Func<Task<T>>)
+  nameWithType.vb: IQueryLoggingHandler.RunAndLogQuery(Of T)(Func(Of Task(Of T)))
+- uid: ProjectManager.App.Helpers
+  name: ProjectManager.App.Helpers
+  href: api/ProjectManager.App.Helpers.html
+  commentId: N:ProjectManager.App.Helpers
+  fullName: ProjectManager.App.Helpers
+  nameWithType: ProjectManager.App.Helpers
+- uid: ProjectManager.App.Helpers.IPasswordHasher
+  name: IPasswordHasher
+  href: api/ProjectManager.App.Helpers.IPasswordHasher.html
+  commentId: T:ProjectManager.App.Helpers.IPasswordHasher
+  fullName: ProjectManager.App.Helpers.IPasswordHasher
+  nameWithType: IPasswordHasher
+- uid: ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync(System.String)
+  name: HashPasswordAsync(String)
+  href: api/ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync.html#ProjectManager_App_Helpers_IPasswordHasher_HashPasswordAsync_System_String_
+  commentId: M:ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync(System.String)
+  fullName: ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync(System.String)
+  nameWithType: IPasswordHasher.HashPasswordAsync(String)
+- uid: ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync*
+  name: HashPasswordAsync
+  href: api/ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync.html
+  commentId: Overload:ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync
+  fullName: ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync
+  nameWithType: IPasswordHasher.HashPasswordAsync
+- uid: ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync(System.String,System.String)
+  name: VerifyPasswordAsync(String, String)
+  href: api/ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync.html#ProjectManager_App_Helpers_IPasswordHasher_VerifyPasswordAsync_System_String_System_String_
+  commentId: M:ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync(System.String,System.String)
+  fullName: ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync(System.String, System.String)
+  nameWithType: IPasswordHasher.VerifyPasswordAsync(String, String)
+- uid: ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync*
+  name: VerifyPasswordAsync
+  href: api/ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync.html
+  commentId: Overload:ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync
+  fullName: ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync
+  nameWithType: IPasswordHasher.VerifyPasswordAsync
 - uid: ProjectManager.App.Services.Account
   name: ProjectManager.App.Services.Account
   href: api/ProjectManager.App.Services.Account.html
@@ -145,12 +136,12 @@ references:
   commentId: Overload:ProjectManager.App.Services.Account.IUserService.GetUserAsync
   fullName: ProjectManager.App.Services.Account.IUserService.GetUserAsync
   nameWithType: IUserService.GetUserAsync
-- uid: ProjectManager.App.Services.Account.IUserService.UpdateUserAsync(System.Int32,ProjectManager.Database.Models.User)
-  name: UpdateUserAsync(Int32, User)
-  href: api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html#ProjectManager_App_Services_Account_IUserService_UpdateUserAsync_System_Int32_ProjectManager_Database_Models_User_
-  commentId: M:ProjectManager.App.Services.Account.IUserService.UpdateUserAsync(System.Int32,ProjectManager.Database.Models.User)
-  fullName: ProjectManager.App.Services.Account.IUserService.UpdateUserAsync(System.Int32, ProjectManager.Database.Models.User)
-  nameWithType: IUserService.UpdateUserAsync(Int32, User)
+- uid: ProjectManager.App.Services.Account.IUserService.UpdateUserAsync(ProjectManager.Database.Models.User,ProjectManager.Database.Models.User)
+  name: UpdateUserAsync(User, User)
+  href: api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html#ProjectManager_App_Services_Account_IUserService_UpdateUserAsync_ProjectManager_Database_Models_User_ProjectManager_Database_Models_User_
+  commentId: M:ProjectManager.App.Services.Account.IUserService.UpdateUserAsync(ProjectManager.Database.Models.User,ProjectManager.Database.Models.User)
+  fullName: ProjectManager.App.Services.Account.IUserService.UpdateUserAsync(ProjectManager.Database.Models.User, ProjectManager.Database.Models.User)
+  nameWithType: IUserService.UpdateUserAsync(User, User)
 - uid: ProjectManager.App.Services.Account.IUserService.UpdateUserAsync*
   name: UpdateUserAsync
   href: api/ProjectManager.App.Services.Account.IUserService.UpdateUserAsync.html
@@ -169,105 +160,3 @@ references:
   commentId: Overload:ProjectManager.App.Services.Account.IUserService.ValidateUser
   fullName: ProjectManager.App.Services.Account.IUserService.ValidateUser
   nameWithType: IUserService.ValidateUser
-- uid: ProjectManager.App.Services.Account.UserService
-  name: UserService
-  href: api/ProjectManager.App.Services.Account.UserService.html
-  commentId: T:ProjectManager.App.Services.Account.UserService
-  fullName: ProjectManager.App.Services.Account.UserService
-  nameWithType: UserService
-- uid: ProjectManager.App.Services.Account.UserService.#ctor(ProjectManager.Database.Context.ProjectManagerDb)
-  name: UserService(ProjectManagerDb)
-  href: api/ProjectManager.App.Services.Account.UserService.-ctor.html#ProjectManager_App_Services_Account_UserService__ctor_ProjectManager_Database_Context_ProjectManagerDb_
-  commentId: M:ProjectManager.App.Services.Account.UserService.#ctor(ProjectManager.Database.Context.ProjectManagerDb)
-  fullName: ProjectManager.App.Services.Account.UserService.UserService(ProjectManager.Database.Context.ProjectManagerDb)
-  nameWithType: UserService.UserService(ProjectManagerDb)
-- uid: ProjectManager.App.Services.Account.UserService.#ctor*
-  name: UserService
-  href: api/ProjectManager.App.Services.Account.UserService.-ctor.html
-  commentId: Overload:ProjectManager.App.Services.Account.UserService.#ctor
-  fullName: ProjectManager.App.Services.Account.UserService.UserService
-  nameWithType: UserService.UserService
-- uid: ProjectManager.App.Services.Account.UserService.ChangeEmail(System.Int32,System.String)
-  name: ChangeEmail(Int32, String)
-  href: api/ProjectManager.App.Services.Account.UserService.ChangeEmail.html#ProjectManager_App_Services_Account_UserService_ChangeEmail_System_Int32_System_String_
-  commentId: M:ProjectManager.App.Services.Account.UserService.ChangeEmail(System.Int32,System.String)
-  fullName: ProjectManager.App.Services.Account.UserService.ChangeEmail(System.Int32, System.String)
-  nameWithType: UserService.ChangeEmail(Int32, String)
-- uid: ProjectManager.App.Services.Account.UserService.ChangeEmail*
-  name: ChangeEmail
-  href: api/ProjectManager.App.Services.Account.UserService.ChangeEmail.html
-  commentId: Overload:ProjectManager.App.Services.Account.UserService.ChangeEmail
-  fullName: ProjectManager.App.Services.Account.UserService.ChangeEmail
-  nameWithType: UserService.ChangeEmail
-- uid: ProjectManager.App.Services.Account.UserService.ChangePassword(System.Int32,System.String)
-  name: ChangePassword(Int32, String)
-  href: api/ProjectManager.App.Services.Account.UserService.ChangePassword.html#ProjectManager_App_Services_Account_UserService_ChangePassword_System_Int32_System_String_
-  commentId: M:ProjectManager.App.Services.Account.UserService.ChangePassword(System.Int32,System.String)
-  fullName: ProjectManager.App.Services.Account.UserService.ChangePassword(System.Int32, System.String)
-  nameWithType: UserService.ChangePassword(Int32, String)
-- uid: ProjectManager.App.Services.Account.UserService.ChangePassword*
-  name: ChangePassword
-  href: api/ProjectManager.App.Services.Account.UserService.ChangePassword.html
-  commentId: Overload:ProjectManager.App.Services.Account.UserService.ChangePassword
-  fullName: ProjectManager.App.Services.Account.UserService.ChangePassword
-  nameWithType: UserService.ChangePassword
-- uid: ProjectManager.App.Services.Account.UserService.CreateUserAsync(System.String,System.String,System.String)
-  name: CreateUserAsync(String, String, String)
-  href: api/ProjectManager.App.Services.Account.UserService.CreateUserAsync.html#ProjectManager_App_Services_Account_UserService_CreateUserAsync_System_String_System_String_System_String_
-  commentId: M:ProjectManager.App.Services.Account.UserService.CreateUserAsync(System.String,System.String,System.String)
-  fullName: ProjectManager.App.Services.Account.UserService.CreateUserAsync(System.String, System.String, System.String)
-  nameWithType: UserService.CreateUserAsync(String, String, String)
-- uid: ProjectManager.App.Services.Account.UserService.CreateUserAsync*
-  name: CreateUserAsync
-  href: api/ProjectManager.App.Services.Account.UserService.CreateUserAsync.html
-  commentId: Overload:ProjectManager.App.Services.Account.UserService.CreateUserAsync
-  fullName: ProjectManager.App.Services.Account.UserService.CreateUserAsync
-  nameWithType: UserService.CreateUserAsync
-- uid: ProjectManager.App.Services.Account.UserService.DeleteUserAsync(System.Int32)
-  name: DeleteUserAsync(Int32)
-  href: api/ProjectManager.App.Services.Account.UserService.DeleteUserAsync.html#ProjectManager_App_Services_Account_UserService_DeleteUserAsync_System_Int32_
-  commentId: M:ProjectManager.App.Services.Account.UserService.DeleteUserAsync(System.Int32)
-  fullName: ProjectManager.App.Services.Account.UserService.DeleteUserAsync(System.Int32)
-  nameWithType: UserService.DeleteUserAsync(Int32)
-- uid: ProjectManager.App.Services.Account.UserService.DeleteUserAsync*
-  name: DeleteUserAsync
-  href: api/ProjectManager.App.Services.Account.UserService.DeleteUserAsync.html
-  commentId: Overload:ProjectManager.App.Services.Account.UserService.DeleteUserAsync
-  fullName: ProjectManager.App.Services.Account.UserService.DeleteUserAsync
-  nameWithType: UserService.DeleteUserAsync
-- uid: ProjectManager.App.Services.Account.UserService.GetUserAsync(System.String)
-  name: GetUserAsync(String)
-  href: api/ProjectManager.App.Services.Account.UserService.GetUserAsync.html#ProjectManager_App_Services_Account_UserService_GetUserAsync_System_String_
-  commentId: M:ProjectManager.App.Services.Account.UserService.GetUserAsync(System.String)
-  fullName: ProjectManager.App.Services.Account.UserService.GetUserAsync(System.String)
-  nameWithType: UserService.GetUserAsync(String)
-- uid: ProjectManager.App.Services.Account.UserService.GetUserAsync*
-  name: GetUserAsync
-  href: api/ProjectManager.App.Services.Account.UserService.GetUserAsync.html
-  commentId: Overload:ProjectManager.App.Services.Account.UserService.GetUserAsync
-  fullName: ProjectManager.App.Services.Account.UserService.GetUserAsync
-  nameWithType: UserService.GetUserAsync
-- uid: ProjectManager.App.Services.Account.UserService.UpdateUserAsync(System.Int32,ProjectManager.Database.Models.User)
-  name: UpdateUserAsync(Int32, User)
-  href: api/ProjectManager.App.Services.Account.UserService.UpdateUserAsync.html#ProjectManager_App_Services_Account_UserService_UpdateUserAsync_System_Int32_ProjectManager_Database_Models_User_
-  commentId: M:ProjectManager.App.Services.Account.UserService.UpdateUserAsync(System.Int32,ProjectManager.Database.Models.User)
-  fullName: ProjectManager.App.Services.Account.UserService.UpdateUserAsync(System.Int32, ProjectManager.Database.Models.User)
-  nameWithType: UserService.UpdateUserAsync(Int32, User)
-- uid: ProjectManager.App.Services.Account.UserService.UpdateUserAsync*
-  name: UpdateUserAsync
-  href: api/ProjectManager.App.Services.Account.UserService.UpdateUserAsync.html
-  commentId: Overload:ProjectManager.App.Services.Account.UserService.UpdateUserAsync
-  fullName: ProjectManager.App.Services.Account.UserService.UpdateUserAsync
-  nameWithType: UserService.UpdateUserAsync
-- uid: ProjectManager.App.Services.Account.UserService.ValidateUser(System.String,ProjectManager.Database.Models.User)
-  name: ValidateUser(String, User)
-  href: api/ProjectManager.App.Services.Account.UserService.ValidateUser.html#ProjectManager_App_Services_Account_UserService_ValidateUser_System_String_ProjectManager_Database_Models_User_
-  commentId: M:ProjectManager.App.Services.Account.UserService.ValidateUser(System.String,ProjectManager.Database.Models.User)
-  fullName: ProjectManager.App.Services.Account.UserService.ValidateUser(System.String, ProjectManager.Database.Models.User)
-  nameWithType: UserService.ValidateUser(String, User)
-- uid: ProjectManager.App.Services.Account.UserService.ValidateUser*
-  name: ValidateUser
-  href: api/ProjectManager.App.Services.Account.UserService.ValidateUser.html
-  commentId: Overload:ProjectManager.App.Services.Account.UserService.ValidateUser
-  fullName: ProjectManager.App.Services.Account.UserService.ValidateUser
-  nameWithType: UserService.ValidateUser
