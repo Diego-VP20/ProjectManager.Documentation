@@ -17,7 +17,7 @@
   "api/ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery.html": {
     "href": "api/ProjectManager.App.Handlers.IQueryLoggingHandler.RunAndLogQuery.html",
     "title": "Method RunAndLogQuery | ProjectManager",
-    "keywords": "Method RunAndLogQuery RunAndLogQuery<T>(Func<Task<T>>) Runs a query and logs the time it took to execute if it succeeded. Otherwise it logs the exception. Declaration Task<T> RunAndLogQuery<T>(Func<Task<T>> query) Parameters Type Name Description Func < Task <T>> query Function to run and log. Returns Type Description Task <T> Returns T on success or its default value on failure. Type Parameters Name Description T The return type of query."
+    "keywords": "Method RunAndLogQuery RunAndLogQuery<T>(Func<Task<T>>) Runs a query and logs the time it took to execute if it succeeded. Otherwise it logs the exception. Declaration Task<Result<T>> RunAndLogQuery<T>(Func<Task<T>> query) Parameters Type Name Description Func < Task <T>> query Function to run and log. Returns Type Description Task < LanguageExt.Common.Result <T>> Returns Result of T which on success has T or the exception on failure. Type Parameters Name Description T The return type of query."
   },
   "api/ProjectManager.App.Helpers.html": {
     "href": "api/ProjectManager.App.Helpers.html",

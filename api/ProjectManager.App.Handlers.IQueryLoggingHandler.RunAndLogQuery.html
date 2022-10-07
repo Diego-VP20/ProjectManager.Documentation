@@ -106,7 +106,7 @@ the exception.</p>
 <div class="markdown level1 conceptual"></div>
 <h5 class="decalaration">Declaration</h5>
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">Task&lt;T&gt; RunAndLogQuery&lt;T&gt;(Func&lt;Task&lt;T&gt;&gt; query)</code></pre>
+  <pre><code class="lang-csharp hljs">Task&lt;Result&lt;T&gt;&gt; RunAndLogQuery&lt;T&gt;(Func&lt;Task&lt;T&gt;&gt; query)</code></pre>
 </div>
 <h5 class="parameters">Parameters</h5>
 <table class="table table-bordered table-striped table-condensed">
@@ -136,8 +136,8 @@ the exception.</p>
   </thead>
   <tbody>
     <tr>
-      <td><span class="xref">Task</span>&lt;T&gt;</td>
-      <td><p>Returns T on success or its default value on failure.</p>
+      <td><span class="xref">Task</span>&lt;<span class="xref">LanguageExt.Common.Result</span>&lt;T&gt;&gt;</td>
+      <td><p>Returns Result of T which on success has T or the exception on failure.</p>
 </td>
     </tr>
   </tbody>
