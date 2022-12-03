@@ -39,6 +39,26 @@
     "title": "Method VerifyPasswordAsync | ProjectManager",
     "keywords": "Method VerifyPasswordAsync VerifyPasswordAsync(String, String) Asynchronously verifies a password against a hash. Declaration Task<bool> VerifyPasswordAsync(string password, string hashedPassword) Parameters Type Name Description System.String password System.String hashedPassword Returns Type Description Task < System.Boolean > True if the password matched."
   },
+  "api/ProjectManager.App.Models.html": {
+    "href": "api/ProjectManager.App.Models.html",
+    "title": "Namespace ProjectManager.App.Models | ProjectManager",
+    "keywords": "Namespace ProjectManager.App.Models Classes PackageReferenceDto A class that represents a Package."
+  },
+  "api/ProjectManager.App.Models.PackageReferenceDto.html": {
+    "href": "api/ProjectManager.App.Models.PackageReferenceDto.html",
+    "title": "Class PackageReferenceDto | ProjectManager",
+    "keywords": "Class PackageReferenceDto A class that represents a Package. Inheritance System.Object PackageReferenceDto Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : ProjectManager.App.Models Assembly : ProjectManager.App.dll Syntax public class PackageReferenceDto Properties Name Description Name The package's name. Version The package's version."
+  },
+  "api/ProjectManager.App.Models.PackageReferenceDto.Name.html": {
+    "href": "api/ProjectManager.App.Models.PackageReferenceDto.Name.html",
+    "title": "Property Name | ProjectManager",
+    "keywords": "Property Name Name The package's name. Declaration public string Name { get; set; } Property Value Type Description System.String"
+  },
+  "api/ProjectManager.App.Models.PackageReferenceDto.Version.html": {
+    "href": "api/ProjectManager.App.Models.PackageReferenceDto.Version.html",
+    "title": "Property Version | ProjectManager",
+    "keywords": "Property Version Version The package's version. Declaration public string Version { get; set; } Property Value Type Description System.String"
+  },
   "api/ProjectManager.App.Services.Account.html": {
     "href": "api/ProjectManager.App.Services.Account.html",
     "title": "Namespace ProjectManager.App.Services.Account | ProjectManager",
@@ -83,6 +103,31 @@
     "href": "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html",
     "title": "Method ValidateUser | ProjectManager",
     "keywords": "Method ValidateUser ValidateUser(String, User) Asynchronously authenticates the user. Declaration Task<bool> ValidateUser(string password, User user) Parameters Type Name Description System.String password The password to authenticate the User against. ProjectManager.Database.Models.User user The User object to authenticate Returns Type Description Task < System.Boolean > True if the user entered valid credentials."
+  },
+  "api/ProjectManager.App.Services.Core.html": {
+    "href": "api/ProjectManager.App.Services.Core.html",
+    "title": "Namespace ProjectManager.App.Services.Core | ProjectManager",
+    "keywords": "Namespace ProjectManager.App.Services.Core Classes ProjectService A class that provides methods for working with MSBuild projects."
+  },
+  "api/ProjectManager.App.Services.Core.ProjectService.-ctor.html": {
+    "href": "api/ProjectManager.App.Services.Core.ProjectService.-ctor.html",
+    "title": "Constructor ProjectService | ProjectManager",
+    "keywords": "Constructor ProjectService ProjectService(String) Saves a temporary .csproj file to the filesystem and then loads it Declaration public ProjectService(string projectContentAsString) Parameters Type Name Description System.String projectContentAsString The content of the project to load as a string Exceptions Type Condition Microsoft.Build.Exceptions.InvalidProjectFileException Thrown when the provided content is not a valid .csproj"
+  },
+  "api/ProjectManager.App.Services.Core.ProjectService.Dispose.html": {
+    "href": "api/ProjectManager.App.Services.Core.ProjectService.Dispose.html",
+    "title": "Method Dispose | ProjectManager",
+    "keywords": "Method Dispose Dispose() When the object is disposed, the temporary project file is deleted from the filesystem Declaration public void Dispose()"
+  },
+  "api/ProjectManager.App.Services.Core.ProjectService.GetAllPackages.html": {
+    "href": "api/ProjectManager.App.Services.Core.ProjectService.GetAllPackages.html",
+    "title": "Method GetAllPackages | ProjectManager",
+    "keywords": "Method GetAllPackages GetAllPackages() Get all package references for a project Declaration public IEnumerable<PackageReferenceDto> GetAllPackages() Returns Type Description IEnumerable < PackageReferenceDto > A list of Packages"
+  },
+  "api/ProjectManager.App.Services.Core.ProjectService.html": {
+    "href": "api/ProjectManager.App.Services.Core.ProjectService.html",
+    "title": "Class ProjectService | ProjectManager",
+    "keywords": "Class ProjectService A class that provides methods for working with MSBuild projects. Inheritance System.Object ProjectService Namespace : ProjectManager.App.Services.Core Assembly : ProjectManager.App.dll Syntax public sealed class ProjectService : IDisposable Constructors Name Description ProjectService(String) Saves a temporary .csproj file to the filesystem and then loads it Methods Name Description Dispose() When the object is disposed, the temporary project file is deleted from the filesystem GetAllPackages() Get all package references for a project"
   },
   "articles/intro.html": {
     "href": "articles/intro.html",

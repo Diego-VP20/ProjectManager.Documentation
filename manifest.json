@@ -53,8 +53,8 @@
       "source_relative_path": "api/ProjectManager.App.Helpers.IPasswordHasher.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync.html",
-          "hash": "90Hou810VC8QGof39M7MGyspOpZk5kT7OoCw43avwp0="
+          "relative_path": "api/ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync.html",
+          "hash": "d1SiCEkyd6vyr2ImB5zClS+PuGNtC3R+DAC8Z15X0VI="
         }
       },
       "is_incremental": false,
@@ -65,8 +65,8 @@
       "source_relative_path": "api/ProjectManager.App.Helpers.IPasswordHasher.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectManager.App.Helpers.IPasswordHasher.HashPasswordAsync.html",
-          "hash": "d1SiCEkyd6vyr2ImB5zClS+PuGNtC3R+DAC8Z15X0VI="
+          "relative_path": "api/ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync.html",
+          "hash": "90Hou810VC8QGof39M7MGyspOpZk5kT7OoCw43avwp0="
         }
       },
       "is_incremental": false,
@@ -98,35 +98,71 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Models.PackageReferenceDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Models.PackageReferenceDto.Version.html",
+          "hash": "lcM9H2BX1WWYhY6wONZwqSSc9f1tp4/PRMiY12O2g8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Models.PackageReferenceDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Models.PackageReferenceDto.Name.html",
+          "hash": "5Hij0zBaCZxT6K+xgaw85+Dtf3dey4lf9YcQjXmJdts="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Models.PackageReferenceDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Models.PackageReferenceDto.html",
+          "hash": "9rhPOn/vnLXfEF+mzZtWyP3qCJQnvnO+/qUyfT/f1+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Models.html",
+          "hash": "kwfGYGOCjGsUyjNcwuqUnifuTVA5F0Wr6cOpU988x5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ChangeEmail.html",
+          "hash": "se8+YKmEgfo+lvhSMav1JXM7OJaYjVxN2uYnnt61rDE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ChangePassword.html",
           "hash": "qrG0XkdHa2I1hYxPZzO2HIDm4i6A2L79JY01aXgEDYY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.CreateUserAsync.html",
-          "hash": "1nTkvJByoNX7AGYLo5OANprPmsI0Zz5N/Q/8cIk18qQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.html",
-          "hash": "3bKntJJ13v/i1JWFj5VV2SRuqi2t/MWgTNS+a7dNEfA="
         }
       },
       "is_incremental": false,
@@ -149,20 +185,8 @@
       "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html",
-          "hash": "PhmznZQbI5BVLPqoV59Dal42POAKvsMQ7TAPuxjJCpc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ChangeEmail.html",
-          "hash": "se8+YKmEgfo+lvhSMav1JXM7OJaYjVxN2uYnnt61rDE="
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.html",
+          "hash": "3bKntJJ13v/i1JWFj5VV2SRuqi2t/MWgTNS+a7dNEfA="
         }
       },
       "is_incremental": false,
@@ -194,11 +218,95 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.CreateUserAsync.html",
+          "hash": "1nTkvJByoNX7AGYLo5OANprPmsI0Zz5N/Q/8cIk18qQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Account.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Account.IUserService.ValidateUser.html",
+          "hash": "PhmznZQbI5BVLPqoV59Dal42POAKvsMQ7TAPuxjJCpc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectManager.App.Services.Account.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectManager.App.Services.Account.html",
           "hash": "tHOzKjorOWaRjBEuzmY8hb1JBuv7EvGXhV4/5eA1HDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Core.ProjectService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Core.ProjectService.Dispose.html",
+          "hash": "aAO7rrkp1Qd6/I2nxyJ2JSp6sRN1/GzHqRH2zA/zkZo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Core.ProjectService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Core.ProjectService.-ctor.html",
+          "hash": "gAGDaXt8fCydoeqM20cqV0r2kA0/kyE2suy5FKhGouI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Core.ProjectService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Core.ProjectService.html",
+          "hash": "14cSiN8+aezOldSY2XFdfnnIDvQL1HtBY2MH+psBKjs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Core.ProjectService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Core.ProjectService.GetAllPackages.html",
+          "hash": "rJ53H4CQaFyOMiKfpIOZFf9WeOZ7ZHlVp/dcVez++rY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectManager.App.Services.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectManager.App.Services.Core.html",
+          "hash": "raFp2SULeo5KOYQy6YArh08A6m9IqbMaSe3+PjPY7Wg="
         }
       },
       "is_incremental": false,
@@ -222,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "1vG9/HtXuiyhwQJZanW8jaDHnhEsFLWtes1Bb9Kzgd0="
+          "hash": "IT20ppoS4FXs+QHEFfs2TW3/2aPQwGacjOP1Vo709MY="
         }
       },
       "is_incremental": false,
@@ -317,8 +425,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 5
+          "total_file_count": 10,
+          "skipped_file_count": 10
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

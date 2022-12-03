@@ -64,6 +64,42 @@ references:
   commentId: Overload:ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync
   fullName: ProjectManager.App.Helpers.IPasswordHasher.VerifyPasswordAsync
   nameWithType: IPasswordHasher.VerifyPasswordAsync
+- uid: ProjectManager.App.Models
+  name: ProjectManager.App.Models
+  href: api/ProjectManager.App.Models.html
+  commentId: N:ProjectManager.App.Models
+  fullName: ProjectManager.App.Models
+  nameWithType: ProjectManager.App.Models
+- uid: ProjectManager.App.Models.PackageReferenceDto
+  name: PackageReferenceDto
+  href: api/ProjectManager.App.Models.PackageReferenceDto.html
+  commentId: T:ProjectManager.App.Models.PackageReferenceDto
+  fullName: ProjectManager.App.Models.PackageReferenceDto
+  nameWithType: PackageReferenceDto
+- uid: ProjectManager.App.Models.PackageReferenceDto.Name
+  name: Name
+  href: api/ProjectManager.App.Models.PackageReferenceDto.Name.html#ProjectManager_App_Models_PackageReferenceDto_Name
+  commentId: P:ProjectManager.App.Models.PackageReferenceDto.Name
+  fullName: ProjectManager.App.Models.PackageReferenceDto.Name
+  nameWithType: PackageReferenceDto.Name
+- uid: ProjectManager.App.Models.PackageReferenceDto.Name*
+  name: Name
+  href: api/ProjectManager.App.Models.PackageReferenceDto.Name.html
+  commentId: Overload:ProjectManager.App.Models.PackageReferenceDto.Name
+  fullName: ProjectManager.App.Models.PackageReferenceDto.Name
+  nameWithType: PackageReferenceDto.Name
+- uid: ProjectManager.App.Models.PackageReferenceDto.Version
+  name: Version
+  href: api/ProjectManager.App.Models.PackageReferenceDto.Version.html#ProjectManager_App_Models_PackageReferenceDto_Version
+  commentId: P:ProjectManager.App.Models.PackageReferenceDto.Version
+  fullName: ProjectManager.App.Models.PackageReferenceDto.Version
+  nameWithType: PackageReferenceDto.Version
+- uid: ProjectManager.App.Models.PackageReferenceDto.Version*
+  name: Version
+  href: api/ProjectManager.App.Models.PackageReferenceDto.Version.html
+  commentId: Overload:ProjectManager.App.Models.PackageReferenceDto.Version
+  fullName: ProjectManager.App.Models.PackageReferenceDto.Version
+  nameWithType: PackageReferenceDto.Version
 - uid: ProjectManager.App.Services.Account
   name: ProjectManager.App.Services.Account
   href: api/ProjectManager.App.Services.Account.html
@@ -160,3 +196,51 @@ references:
   commentId: Overload:ProjectManager.App.Services.Account.IUserService.ValidateUser
   fullName: ProjectManager.App.Services.Account.IUserService.ValidateUser
   nameWithType: IUserService.ValidateUser
+- uid: ProjectManager.App.Services.Core
+  name: ProjectManager.App.Services.Core
+  href: api/ProjectManager.App.Services.Core.html
+  commentId: N:ProjectManager.App.Services.Core
+  fullName: ProjectManager.App.Services.Core
+  nameWithType: ProjectManager.App.Services.Core
+- uid: ProjectManager.App.Services.Core.ProjectService
+  name: ProjectService
+  href: api/ProjectManager.App.Services.Core.ProjectService.html
+  commentId: T:ProjectManager.App.Services.Core.ProjectService
+  fullName: ProjectManager.App.Services.Core.ProjectService
+  nameWithType: ProjectService
+- uid: ProjectManager.App.Services.Core.ProjectService.#ctor(System.String)
+  name: ProjectService(String)
+  href: api/ProjectManager.App.Services.Core.ProjectService.-ctor.html#ProjectManager_App_Services_Core_ProjectService__ctor_System_String_
+  commentId: M:ProjectManager.App.Services.Core.ProjectService.#ctor(System.String)
+  fullName: ProjectManager.App.Services.Core.ProjectService.ProjectService(System.String)
+  nameWithType: ProjectService.ProjectService(String)
+- uid: ProjectManager.App.Services.Core.ProjectService.#ctor*
+  name: ProjectService
+  href: api/ProjectManager.App.Services.Core.ProjectService.-ctor.html
+  commentId: Overload:ProjectManager.App.Services.Core.ProjectService.#ctor
+  fullName: ProjectManager.App.Services.Core.ProjectService.ProjectService
+  nameWithType: ProjectService.ProjectService
+- uid: ProjectManager.App.Services.Core.ProjectService.Dispose
+  name: Dispose()
+  href: api/ProjectManager.App.Services.Core.ProjectService.Dispose.html#ProjectManager_App_Services_Core_ProjectService_Dispose
+  commentId: M:ProjectManager.App.Services.Core.ProjectService.Dispose
+  fullName: ProjectManager.App.Services.Core.ProjectService.Dispose()
+  nameWithType: ProjectService.Dispose()
+- uid: ProjectManager.App.Services.Core.ProjectService.Dispose*
+  name: Dispose
+  href: api/ProjectManager.App.Services.Core.ProjectService.Dispose.html
+  commentId: Overload:ProjectManager.App.Services.Core.ProjectService.Dispose
+  fullName: ProjectManager.App.Services.Core.ProjectService.Dispose
+  nameWithType: ProjectService.Dispose
+- uid: ProjectManager.App.Services.Core.ProjectService.GetAllPackages
+  name: GetAllPackages()
+  href: api/ProjectManager.App.Services.Core.ProjectService.GetAllPackages.html#ProjectManager_App_Services_Core_ProjectService_GetAllPackages
+  commentId: M:ProjectManager.App.Services.Core.ProjectService.GetAllPackages
+  fullName: ProjectManager.App.Services.Core.ProjectService.GetAllPackages()
+  nameWithType: ProjectService.GetAllPackages()
+- uid: ProjectManager.App.Services.Core.ProjectService.GetAllPackages*
+  name: GetAllPackages
+  href: api/ProjectManager.App.Services.Core.ProjectService.GetAllPackages.html
+  commentId: Overload:ProjectManager.App.Services.Core.ProjectService.GetAllPackages
+  fullName: ProjectManager.App.Services.Core.ProjectService.GetAllPackages
+  nameWithType: ProjectService.GetAllPackages
